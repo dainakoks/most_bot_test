@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      const path = location.pathname + location.search + location.hash;
+      sessionStorage.setItem('redirect', path);
+      location.replace('/most_bot_test/');
+    </script>
+  </head>
+  <body></body>
+</html>
